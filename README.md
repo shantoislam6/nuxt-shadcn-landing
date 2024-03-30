@@ -1,10 +1,10 @@
 # Nuxt Shadcn landing
 
-## <a href="https://www.shadcn-vue.com/" target="_blank">ShadcnUI Unoffical Vue port</a> + <a href="https://vuejs.org/" target="_blank">Vue</a> + <a href="https://nuxt.com/" target="_blank">Nuxt</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
+<a href="https://www.shadcn-vue.com/" target="_blank">ShadcnUI Unoffical Vue port</a> + <a href="https://vuejs.org/" target="_blank">Vue</a> + <a href="https://nuxt.com/" target="_blank">Nuxt</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
+
+### [Live demo](https://nuxt-shadcn-landing.vercel.app/)
+
 ## Sections
-
-- [Live demo](https://nuxt-shadcn-landing.vercel.app/)
-
 - [x] Navbar
 - [x] Sidebar(mobile)
 - [x] Hero
