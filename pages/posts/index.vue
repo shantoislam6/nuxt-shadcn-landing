@@ -8,7 +8,7 @@ const { data: page } = await useAsyncData('index', () =>
 </script>
 
 <template>
-  <div class="container">
+  <div class="max-container">
     <h1 class="bg-break text-brack text-4xl">
       {{ page?.hero.title }}
     </h1>
@@ -16,9 +16,3 @@ const { data: page } = await useAsyncData('index', () =>
     <ContentDoc path="/" />
   </div>
 </template>
-
-<style>
-body {
-  scroll-behavior: smooth;
-}
-</style>

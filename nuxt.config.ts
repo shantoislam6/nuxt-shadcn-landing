@@ -34,13 +34,15 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      link: [
-        {
-          rel: 'stylesheet',
-          href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css',
-        },
-      ],
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      title : 'AUTOMATISERA MERA',
     },
   },
   css: ['~/assets/css/global.css'],
+  router:{
+    options:{
+      scrollBehaviorType: "smooth"
+    }
+  }
 })

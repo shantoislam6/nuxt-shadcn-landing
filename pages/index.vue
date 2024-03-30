@@ -18,9 +18,3 @@ const { data: page } = await useAsyncData('index', () =>
   <NewsletterSection />
   <FAQSection />
 </template>
-
-<style>
-html {
-  scroll-behavior: smooth;
-}
-</style>

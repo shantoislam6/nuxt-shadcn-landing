@@ -1,10 +1,9 @@
 # Nuxt Shadcn landing
 
 ## <a href="https://www.shadcn-vue.com/" target="_blank">ShadcnUI Unoffical Vue port</a> + <a href="https://vuejs.org/" target="_blank">Vue</a> + <a href="https://nuxt.com/" target="_blank">Nuxt</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
-
-
-
 ## Sections
+
+- [Live demo](https://nuxt-shadcn-landing.vercel.app/)
 
 - [x] Navbar
 - [x] Sidebar(mobile)
@@ -30,28 +29,72 @@
 - [x] Dark Mode
 - [x] Metatags
 
-## How to install
+## Setup
 
-1. Clone this repositoy:
-
-```bash
-git clone https://github.com/shantoislam6/nuxt-shadcn-landing.git
-```
-
-2. Go into project
+Make sure to install the dependencies:
 
 ```bash
-cd nuxt-shadcn-landing
-```
-
-3. Install dependencies
-
-```bash
+# npm
 npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
-4. Run project
+## Development Server
+
+Start the development server on `http://localhost:3000`:
 
 ```bash
+# npm
 npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
 ```
