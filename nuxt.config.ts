@@ -36,7 +36,7 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title : 'AUTOMATISERA MERA',
+      title : 'Nuxt Shadcn landing',
     },
   },
   css: ['~/assets/css/global.css'],

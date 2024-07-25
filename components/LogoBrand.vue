@@ -11,7 +11,7 @@ const isDark = computed({
 });
 </script>
 <template>
-<ClientOnly>
+<!-- <ClientOnly>
     <img
       v-if="!isDark"
       src="/images/brand-light.png"
@@ -31,5 +31,6 @@ const isDark = computed({
         alt=""
       />
     </template>
-</ClientOnly>
+</ClientOnly> -->
+<h3>Nuxt Shadcn Landing</h3>
 </template>
